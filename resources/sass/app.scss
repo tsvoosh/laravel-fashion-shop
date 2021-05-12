@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 25px 0;
+    p {
+        font-size: 0.7em;
+        margin: 12.5px 0;
+        text-align: center;
+    }
+    img {
+        display: block;
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-wrapper {
+    margin-bottom: 25px;
+    text-align: center;
+    .title {
+        margin: 25px 0;
+    }
+}
+
+.image-handler {
+    display: block;
+}
